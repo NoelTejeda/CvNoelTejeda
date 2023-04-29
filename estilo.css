@@ -109,14 +109,16 @@ html{
 }
 .inicio .contenido-seccion .foto img{
     max-width: 200px;
+    height: 200px;
     border-radius: 50%;
-    border: 5px solid #940253;
+    /*border: 5px solid #940253;*/
     position: absolute;
     left: 50%;
     top: -100px;
     transform: translateX(-50%);
     /* clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); */
 }
+
 /* estilos generales */
 .titulo-seccion{
     font-family: "Yellowtail";
