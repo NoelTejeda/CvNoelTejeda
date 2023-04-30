@@ -88,8 +88,9 @@ html{
 .inicio .contenido-seccion .info .redes a{
     display: inline-block;
     text-decoration: none;
-    background-color: #000;
-    color: #940253;
+    background-color: rgb(222, 95, 26);
+    /*color: #940253;*/
+    color: #ffffff;
     border: 1px solid #940253;
     border-radius: 50%;
     width: 40px;
@@ -98,6 +99,7 @@ html{
     margin: 0 5px;
     transition: .3s;
 }
+
 .inicio .contenido-seccion .info .redes a:hover{
     color: #fff;
     background-color: #940253;
